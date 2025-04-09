@@ -4,6 +4,7 @@
     "dotenv": "^16.4.7",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
     "mongose": "^0.0.2-security"
   },
   "devDependencies": {
@@ -16,9 +17,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon src/main.js",
-    "build":"npm i --omit=dev",
-    "start":"node src/main.js"
+    "dev": "nodemon src/main.js",
+    "build": "npm i --omit=dev",
+    "start": "node src/main.js"
   },
   "keywords": [],
   "author": "",
